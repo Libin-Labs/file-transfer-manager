@@ -1,4 +1,4 @@
-# @lp-labs/download-manager
+# @lp-labs/file-transfer-manager
 
 Validated adapter-driven HTTP range downloads with resumable prefix integrity.
 
@@ -7,14 +7,14 @@ Original independent MIT TypeScript implementation with **zero runtime/peer depe
 ## Install
 
 ```sh
-npm install @lp-labs/download-manager
+npm install @lp-labs/file-transfer-manager
 ```
 
 ## Complete example
 
 ```js
 import assert from 'node:assert/strict';
-import { download, DownloadError } from '@lp-labs/download-manager';
+import { download, DownloadError } from '@lp-labs/file-transfer-manager';
 let stored = new Uint8Array();
 let checkpoint;
 const hashes = {
@@ -74,7 +74,7 @@ assert.equal(result.size, 3);
 assert.deepEqual([...stored], [1, 2, 3]);
 ```
 
-CommonJS exposes the same API: `const api = require('@lp-labs/download-manager')`.
+CommonJS exposes the same API: `const api = require('@lp-labs/file-transfer-manager')`.
 
 ## Scope, customization and performance
 

@@ -1,4 +1,4 @@
-import { download, DownloadError } from '@lp-labs/download-manager';
+import { download, DownloadError } from '@lp-labs/file-transfer-manager';
 const publicAPI = [download, DownloadError];
 const apiCount: number = publicAPI.length;
 void apiCount;

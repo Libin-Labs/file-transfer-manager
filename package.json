@@ -1,5 +1,5 @@
 {
-  "name": "@lp-labs/download-manager",
+  "name": "@lp-labs/file-transfer-manager",
   "version": "0.1.0",
   "description": "Validated adapter-driven HTTP range downloads with resumable prefix integrity.",
   "license": "MIT",
